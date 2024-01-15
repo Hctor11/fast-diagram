@@ -1,0 +1,12 @@
+.flow {
+    width: 100vw;
+    height: 100vh;
+    --dot-bg: rgb(255, 255, 255);
+    --dot-color: rgb(219, 219, 219);
+    --dot-size: 2px;
+    --dot-space: 18px;
+      background:
+          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          var(--dot-color);
+}
